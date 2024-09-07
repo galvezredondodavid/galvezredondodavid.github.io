@@ -1,0 +1,46 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #1a1a1a; /* Fondo oscuro */
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4vw; /* Tamaño del título en función del ancho de la ventana gráfica */
+    color: #fff;
+    text-align: center;
+}
+
+.subtitle {
+    position: absolute;
+    top: 60%; /* Subtítulo más abajo */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw; /* Tamaño del título en función del ancho de la ventana gráfica */
+    color: #ccc;
+    text-align: center;
+}
+
+#indicator {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white; /* Añadir borde blanco */
+}
