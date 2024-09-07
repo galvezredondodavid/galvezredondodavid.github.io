@@ -4,7 +4,7 @@ body, html {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background-color: #1a1a1a; /* Fondo oscuro */
+    background-color: #1a1a1a;
 }
 
 canvas {
@@ -21,17 +21,17 @@ canvas {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 4vw; /* Tamaño del título en función del ancho de la ventana gráfica */
+    font-size: 4vw;
     color: #fff;
     text-align: center;
 }
 
 .subtitle {
     position: absolute;
-    top: 60%; /* Subtítulo más abajo */
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 2vw; /* Tamaño del título en función del ancho de la ventana gráfica */
+    font-size: 2vw;
     color: #ccc;
     text-align: center;
 }
@@ -42,5 +42,5 @@ canvas {
     right: 20px;
     width: 20px;
     height: 20px;
-    border: 2px solid white; /* Añadir borde blanco */
+    border: 2px solid white;
 }
